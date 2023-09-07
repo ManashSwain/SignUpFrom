@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", "sans-serif";
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)),
+    url("./Images/background.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formBox {
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding: 50px 60px;
+  text-align: center;
+  border-radius: 3%;
+}
+
+.formBox h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #3c00a0;
+    position: relative;
+}
+
+.inputField {
+    background-color: #eaeaea;
+    margin: 15px 0px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    max-height: 65px;
+
+}
+input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    background: transparent;
+}
+
+.inputField i {
+    margin-left:10px ;
+    color: #999;
+}
+
+form p {
+    text-align: left;
+    font-size: 15px;
+}
+
+form p a {
+    text-align: left;
+    font-size: 15px;
+    text-decoration: none;
+    color: #3c00a0;
+    margin-left: 5px;
+}
+
+.btnField {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.btn {
+    padding: 15px 50px;
+    background-color: #3c00a0;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+
+}
+.btn1 {
+    padding: 15px 50px;
+    background-color: #999;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+
+}
+.btn:hover {
+    background-color:#4e04c6;
+}
+.btn1:hover {
+    background-color:rgb(136, 135, 135);
+}
+
+
+/* Media Queries for smaller size devices  */
+
+@media screen and (max-width: 495px){
+    .btn {
+        padding: 10px 30px;
+    }
+    .btn1 {
+        padding: 10px 30px;
+    }
+}
+
+
+
+

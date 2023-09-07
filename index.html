@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="png" href="./Images/man.png">
+    <script src="https://kit.fontawesome.com/fa1c97a57d.js" crossorigin="anonymous"></script>
+    <title>Login / SignUp Form</title>
+  </head>
+  <body>
+    
+    <!-- Main body  -->
+    
+    <div class="container">
+      <div class="formBox">
+        <h1 id="title">Sign-up</h1>
+        <form>
+          <div class="inputGroup">
+            <div class="inputField" id="nameField">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" placeholder="Name">
+              </div>
+            <div class="inputField">
+              <i class="fa-regular fa-envelope"></i>
+                <input type="email" placeholder="Email-id">
+            </div>
+            <div class="inputField">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password">
+            </div>
+          </div>
+          <div class="btnField">
+            <button type="button" class="btn" id="signupbtn" onclick="signup()">Sign-Up</button>
+            <button type="button" class="btn1" id="signinbtn" onclick="signin()">Sign-In</button>
+          </div> 
+        </form>
+      </div>
+   </div>
+
+   <!-- Script tag  -->
+   
+   <script src="index.js"></script> 
+
+</body>
+</html>
